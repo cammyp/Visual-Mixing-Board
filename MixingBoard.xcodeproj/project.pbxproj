@@ -17,6 +17,11 @@
 		2AC4B34B24100310005645BE /* CameronsVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4B34A24100310005645BE /* CameronsVisualizer.swift */; };
 		2AC4B34D24102562005645BE /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4B34C24102562005645BE /* CustomButtons.swift */; };
 		2AC4B34F241036A6005645BE /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC4B34E241036A6005645BE /* CustomText.swift */; };
+		2AFC53552410461500613272 /* ParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC53542410461500613272 /* ParticleView.swift */; };
+		2AFC535B2410494C00613272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFC53592410494C00613272 /* Assets.xcassets */; };
+		2AFC535D24104AC700613272 /* BdayRain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AFC535C24104AC700613272 /* BdayRain.sks */; };
+		2AFC535F24104E0800613272 /* CakeRain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AFC535E24104E0800613272 /* CakeRain.sks */; };
+		2AFC53632410568800613272 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC53622410568800613272 /* CustomImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		2AC4B34A24100310005645BE /* CameronsVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameronsVisualizer.swift; sourceTree = "<group>"; };
 		2AC4B34C24102562005645BE /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
 		2AC4B34E241036A6005645BE /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		2AFC53542410461500613272 /* ParticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticleView.swift; sourceTree = "<group>"; };
+		2AFC53592410494C00613272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFC535C24104AC700613272 /* BdayRain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BdayRain.sks; sourceTree = "<group>"; };
+		2AFC535E24104E0800613272 /* CakeRain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CakeRain.sks; sourceTree = "<group>"; };
+		2AFC53622410568800613272 /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,7 @@
 		2AC4B328240FF9E1005645BE = {
 			isa = PBXGroup;
 			children = (
+				2AFC53592410494C00613272 /* Assets.xcassets */,
 				2AC4B333240FF9E1005645BE /* MixingBoard */,
 				2AC4B332240FF9E1005645BE /* Products */,
 			);
@@ -71,6 +82,10 @@
 				2AC4B34C24102562005645BE /* CustomButtons.swift */,
 				2AC4B34E241036A6005645BE /* CustomText.swift */,
 				2AC4B34A24100310005645BE /* CameronsVisualizer.swift */,
+				2AFC53622410568800613272 /* CustomImage.swift */,
+				2AFC53542410461500613272 /* ParticleView.swift */,
+				2AFC535C24104AC700613272 /* BdayRain.sks */,
+				2AFC535E24104E0800613272 /* CakeRain.sks */,
 				2AC4B33A240FF9E2005645BE /* Assets.xcassets */,
 				2AC4B33F240FF9E2005645BE /* LaunchScreen.storyboard */,
 				2AC4B342240FF9E2005645BE /* Info.plist */,
@@ -146,8 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC4B341240FF9E2005645BE /* LaunchScreen.storyboard in Resources */,
+				2AFC535F24104E0800613272 /* CakeRain.sks in Resources */,
 				2AC4B33E240FF9E2005645BE /* Preview Assets.xcassets in Resources */,
 				2AC4B33B240FF9E2005645BE /* Assets.xcassets in Resources */,
+				2AFC535D24104AC700613272 /* BdayRain.sks in Resources */,
+				2AFC535B2410494C00613272 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +180,11 @@
 				2AC4B335240FF9E1005645BE /* AppDelegate.swift in Sources */,
 				2AC4B337240FF9E1005645BE /* SceneDelegate.swift in Sources */,
 				2AC4B339240FF9E1005645BE /* ContentView.swift in Sources */,
+				2AFC53552410461500613272 /* ParticleView.swift in Sources */,
 				2AC4B34B24100310005645BE /* CameronsVisualizer.swift in Sources */,
 				2AC4B34D24102562005645BE /* CustomButtons.swift in Sources */,
 				2AC4B349241002F3005645BE /* CameronsController.swift in Sources */,
+				2AFC53632410568800613272 /* CustomImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,8 +16,8 @@ struct ContentView: View {
             Spacer()
             // CameronsController is passing data up to ContentView and changing it, need '$' when  changing
             CameronsController(signal: $signal)
-            Spacer()
             CameronsVisualizer(signal: signal)
+            Spacer()
         }
     }
 }

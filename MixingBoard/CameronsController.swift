@@ -7,12 +7,19 @@ struct CameronsController: View {
     
     var body: some View {
         VStack {
+            
+            HStack {
+                CustomButtons(color: Color.red, text: "\(signal.intValue)")
+                CustomButtons(color: Color.purple, text: "\(signal.toggleValue.description.capitalized)")
+                CustomButtons(color: Color.blue, text: String(format: "%.2f", signal.floatValue))
+            }
+            
             VStack {
                 Toggle(isOn: $signal.toggleValue) {
                     CustomText(text: "On/Off", size: 25)
                 }
                 Stepper(value: $signal.intValue, in: 0...10) {
-                    CustomText(text: "Int  Value", size: 30)
+                    CustomText(text: "Int Value", size: 30)
                 }
                 Slider(value: $signal.floatValue)
             }
@@ -20,12 +27,6 @@ struct CameronsController: View {
             .padding(.trailing, 30)
             .padding(.bottom, 15)
             .padding(.top, 15)
-            
-            HStack {
-                CustomButtons(color: Color.red, text: "\(signal.intValue)")
-                CustomButtons(color: Color.purple, text: "\(signal.toggleValue.description.capitalized)")
-                CustomButtons(color: Color.blue, text: String(format: "%.2f", signal.floatValue))
-            }
         }
     }
 }
